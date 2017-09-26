@@ -19,10 +19,8 @@ client.connect((err) => {
             return console.error("error running query", err);
         }
         console.log(result.rows[0].number); //output: 1
-        console.log('HELOOOOOOOO////////////');
         console.log(result);
         client.end();
     });
 
 });
-
